@@ -1,0 +1,102 @@
+
+body{
+    background-color: sandybrown;
+    background-size: 550px 1350px ;
+    background-image: url("../imgs/choice1.jpg");
+    background-repeat: no-repeat;
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+
+    
+}
+h1{
+font-size: 35px;
+font-weight: bolder;
+font-family: Arial;
+color: rgb(73, 17, 17);
+text-align: center;
+}
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Arial;
+    color:maroon;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 5px;
+}
+p{
+    font-size: 25px;
+    font-weight: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    color:firebrick;
+    text-align: right;
+}
+#episodes{
+    margin-top: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#film3D{
+float: right;
+margin: auto 0;
+margin-top: 40px;
+}
+button{ 
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Arial;
+   background: silver;
+   color: rgba(178, 34, 34, 0.767)!important;
+   display: inline-block;
+   margin-bottom: 5px;
+   text-align: center;
+   padding: 7px 14px;
+   border: 1px #999 solid;
+   cursor: pointer;
+}
+img{
+width: 250px;
+height: 250px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border-radius: 60%;
+}
+td,tr {  
+    border: 2px solid black;    
+    font-size: 30px;     
+     }
+th{
+    border: 2px solid black;
+    font-size: 35px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    padding:20px;
+    width:100%;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#episodes a#twenty-one button{
+        background-color: black;
+        color: rgba(178, 34, 34, 0.767)!important;
+    }
+    #episodes button:hover{
+        background-color: black;
+    }
+    #film3D button:hover{
+        background-color: black;
+    }
